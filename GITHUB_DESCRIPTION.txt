@@ -1,0 +1,1 @@
+Classical CMHA for HP protein folding on the FCC lattice: a reproducible multi-block heat-bath annealing solver with 31 benchmark profiles, component ablations, validated folds, results, and plotting tools.

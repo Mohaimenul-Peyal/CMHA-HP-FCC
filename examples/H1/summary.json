@@ -1,0 +1,21 @@
+{
+  "benchmark": "H1",
+  "suite": "H1-H10",
+  "N": 48,
+  "L": 8,
+  "Native_HH": 69,
+  "IWL_HH": null,
+  "best_HH": 69,
+  "best_HP_energy": -69,
+  "mean_worker_best_HH": 69.0,
+  "sample_SD_worker_best_HH": 0.0,
+  "workers": 16,
+  "native_hits": 16,
+  "first_recorded_best_seconds": 2.3650798000162467,
+  "configured_wall_seconds": 3600.0,
+  "target_stop_enabled": true,
+  "base_seed": 21013001,
+  "original_run_id": "runs/H1/CMHA_FCC_J4_H1_L8_allworkers_targetstop_max3600s_seed21013001_20261013_143811",
+  "profile": "profiles/primary/H1.json",
+  "fold_file": "results/best_folds/H1.json"
+}

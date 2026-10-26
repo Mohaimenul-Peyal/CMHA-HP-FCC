@@ -1,0 +1,1364 @@
+[
+  {
+    "study": "primary",
+    "benchmark": "H1",
+    "run_directory": "runs/H1/CMHA_FCC_J4_H1_L8_allworkers_targetstop_max3600s_seed21013001_20261013_143811",
+    "files": {
+      "run_config.json": "1dc7e9ada382f1bceaa8b757777cdca1d6f6e21f32d536c924b487ae221a9b0e",
+      "worker_results.json": "3de7fc2e0b91afac2e768c670c2c659d2a57d01704ff822fd6ca2c87fb22b105",
+      "best.json": "cbe60a031a4c62a1fc04938d77ec2a487cd02adc8d7f4898010dfb1d247b3aae",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "H2",
+    "run_directory": "runs/H2/CMHA_FCC_J4_H2_L8_allworkers_targetstop_max3600s_seed21013001_20261013_143811",
+    "files": {
+      "run_config.json": "530e76c315b6c3313141f524696ae956754166b27ba9729139a587ee242a07b0",
+      "worker_results.json": "88476f75a98ab703269b91186669ba508be634bde04a8ad33e6f45011a5d8277",
+      "best.json": "9e71535140c946d9e5aa0a7dc59c735e78e3efae555adc2685ac3f11f39df8ec",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "H3",
+    "run_directory": "runs/H3/CMHA_FCC_J4_H3_L8_allworkers_targetstop_max3600s_seed21013001_20261013_143811",
+    "files": {
+      "run_config.json": "aa78805e78402d88fa3d1b06cf2863a53871c8e601054256c76bdbcde54f1949",
+      "worker_results.json": "431a809245f267e84f89f7d2779ba7892a802c59cf73064dba7d9b4c5239add2",
+      "best.json": "d03330cd0bfe157edeb252dacd1135040b8737a550a16b0cf26fdf8ad22f2c62",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "H4",
+    "run_directory": "runs/H4/CMHA_FCC_J4_H4_L8_allworkers_targetstop_max3600s_seed21013001_20261013_143811",
+    "files": {
+      "run_config.json": "deec4886a29f4f3f0de9db0c4f61dbcab37aad5ec96ed5ae6aedd07e79b10e73",
+      "worker_results.json": "4e0346167c663348741135a8dac98447a4b3f9a4bea51283bb7fd9fcbb10ee58",
+      "best.json": "91e03b97a47197bdba636a0d18dbcb70c259039f2a1bfeecc4863bd5b99c694d",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "H5",
+    "run_directory": "runs/H5/CMHA_FCC_J4_H5_L8_allworkers_targetstop_max3600s_seed21013001_20261013_143811",
+    "files": {
+      "run_config.json": "fe61f7d7af536f3da43d242bc0f866f81cd46d9a44e26638e251267916728adc",
+      "worker_results.json": "cf162a88b7c2a4ab98ef1f2635a19746188b8de74ade3ddada5d9adf3309416d",
+      "best.json": "639b4e00697d25ec99b9447742a4d2170e8ffdf17a8e462a7968a7d2967de738",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "H6",
+    "run_directory": "runs/H6/CMHA_FCC_J4_H6_L8_allworkers_targetstop_max3600s_seed21013001_20261013_143811",
+    "files": {
+      "run_config.json": "716fcae38e5f8ae635bb39e8a36ececc31b0eb4ec967b59ef267ff7647d0ad6c",
+      "worker_results.json": "d3272825dd409d52d88659809665e47c03441206ca55806700a5952dab698fe3",
+      "best.json": "7894fff074f47c3a6fa6e72f0b30282ee794702404985de7eea03a4d01bc6eda",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "H7",
+    "run_directory": "runs/H7/CMHA_FCC_J4_H7_L8_allworkers_targetstop_max3600s_seed21013001_20261013_143811",
+    "files": {
+      "run_config.json": "90e27244bd0f6a3380abe5377e2297b918157b3f7e74c961677a5fe88c77f97b",
+      "worker_results.json": "a184c66395f047e966c25f26b711a7ae9be5a79760d993e940cc87cf39b60be8",
+      "best.json": "6fefffbbb366e6ae630527ce9d1bbaca0e908e4a620dbbc64ec4781029c1f7cb",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "H8",
+    "run_directory": "runs/H8/CMHA_FCC_J4_H8_L8_allworkers_targetstop_max3600s_seed21013001_20261013_143811",
+    "files": {
+      "run_config.json": "91beca6192a7b56dab223704e13f223911ee1f9a67386c5d2c71bb1dd7360376",
+      "worker_results.json": "e7ab91770a73be4020c42ecdde3a18c76d976f28f5e977665f229d898c567d1f",
+      "best.json": "d1923aab626f364da45e652e85dbf8fad6e79bfd167db6233dd9389de63a6a2f",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "H9",
+    "run_directory": "runs/H9/CMHA_FCC_J4_H9_L8_allworkers_targetstop_max3600s_seed21013001_20261013_143811",
+    "files": {
+      "run_config.json": "bf3be3ae423ef21809585c6069a21e114a5e8a0deaca7571ddd470127ff7fb48",
+      "worker_results.json": "3abf19dd256e37e9f35717354bd6014e3947c7dbee381240b47f2c3af7cfc3d7",
+      "best.json": "075a56554dd22b7efd3e85117e2f095ab6f3d727eb91fb8cd031e251a94153a8",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "H10",
+    "run_directory": "runs/H10/CMHA_FCC_J4_H10_L8_allworkers_targetstop_max3600s_seed21013001_20261013_143811",
+    "files": {
+      "run_config.json": "df8af92b4e6113d9b1332b6089ab14bcf49a451b07bce92e179456fd6743d44f",
+      "worker_results.json": "e91afab77c206e6a41a8a115d1fddc7eefbf90fd03b5ab8639554b27933d0650",
+      "best.json": "b6f0fbe16048ba2b92eb0519b5a2075e5f85f000debb0358c116cae84acda198",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "F90_1FCC",
+    "run_directory": "runs/F90_1FCC/CMHA_FCC_J4_F90_1FCC_L9_allworkers_targetstop_max3600s_seed21013001_20261013_132735",
+    "files": {
+      "run_config.json": "c9156be0efb952f03d5c1c571832496b85fc333fadfc87ccd5b99e134beed81d",
+      "worker_results.json": "4bfb6c5b614ba3744c3172c2a50ae3f466feaa30a5fb1d29549f18d9c4006aeb",
+      "best.json": "fc5d4cbf6b146236411d38229520ac748fc2875889d61fbeeb73c83d792a5ae4",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "F90_2FCC",
+    "run_directory": "runs/F90_2FCC/CMHA_FCC_J4_F90_2FCC_L9_allworkers_targetstop_max3600s_seed21013001_20261013_132735",
+    "files": {
+      "run_config.json": "47786507e99dba77f7ead6c5c336827affddbc37c328767589499a16e5e9e606",
+      "worker_results.json": "3bd4e48df6c0d764a1c59e1aacfa4288bf9dce8a5be905788f7d4b64f1ccfc44",
+      "best.json": "2a73036de75182efc0c2fbdb69e340f4dc25ddb4ca255c97785072e12bb536e1",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "F90_3FCC",
+    "run_directory": "runs/F90_3FCC/CMHA_FCC_J4_F90_3FCC_L9_allworkers_targetstop_max3600s_seed21013001_20261013_132735",
+    "files": {
+      "run_config.json": "d69083c72f003e9d9e1c456c43daf52be3d0dd94aa47c215ac563288077999b2",
+      "worker_results.json": "9f995e7f20fe2122b12b401c0973678fae8f9f107d2571609a403dbe91457f5c",
+      "best.json": "668c8ddf3858cf1030303cda04364381b3543d92e164b61b3c554743068d79c8",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "F90_4FCC",
+    "run_directory": "runs/F90_4FCC/CMHA_FCC_J4_F90_4FCC_L9_allworkers_targetstop_max3600s_seed21013001_20261013_132735",
+    "files": {
+      "run_config.json": "4aa3d7c144d475d0a5cfa4b5b06842622dced09a9419b8410f60b9a5b1b30a33",
+      "worker_results.json": "8ca312aa04ad08b3c7136667754214207399613d3042b5e0247bbf1d79461a0c",
+      "best.json": "bfbf3e534d04d3024ff0da80b8d5dba13a4c825c1646688e2532c2d7cca4fb26",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "F90_5FCC",
+    "run_directory": "runs/F90_5FCC/CMHA_FCC_J4_F90_5FCC_L9_allworkers_targetstop_max3600s_seed21013001_20261013_132735",
+    "files": {
+      "run_config.json": "41693fd1f513c88315d8153f0443702689250abbd0cc0753e5b4b603649af6b3",
+      "worker_results.json": "3af04be51e8cf9e2b479b22721125659382c04f0d69dc3a18b9d04aefe5ff947",
+      "best.json": "7b1db4235e2e49fdddfb6f8cbdca27e24b655e52c546ec0a56d4015dc4143127",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "S1FCC",
+    "run_directory": "runs/S1FCC/CMHA_FCC_J4_S1FCC_L11_allworkers_targetstop_max3600s_seed21013001_20261013_132735",
+    "files": {
+      "run_config.json": "4eb7c06eb552b0260a1c8f97d293b92a701acb18adb309cae9baa6dcee592661",
+      "worker_results.json": "7261ad8d85691d1f6e0def77daf50d04807653e65cbc7aca9f13157ccb411456",
+      "best.json": "65551409b7864543c8db59f96ff9f27442c59d00211b21cb43e86bdfca6ae1af",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "S2FCC",
+    "run_directory": "runs/S2FCC/CMHA_FCC_J4_S2FCC_L11_allworkers_targetstop_max3600s_seed21013001_20261013_132735",
+    "files": {
+      "run_config.json": "97cfa21fa2927597ccb685539ec0ce0856ebea5da45286f222e9325297e2a641",
+      "worker_results.json": "f191c5f84c0d9aceb7b6ff9f166ea9c09e72d6fa44760356524ef205d8ab56f7",
+      "best.json": "262f3d7239df88a2526f0793532c184ecd2725494e82dc09da260cf4d7435c1d",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "S3FCC",
+    "run_directory": "runs/S3FCC/CMHA_FCC_J4_S3FCC_L11_allworkers_targetstop_max3600s_seed21013001_20261013_132735",
+    "files": {
+      "run_config.json": "2bbf10fb0c9a0689dcedc71e74ca4ed9c2fe664e77e8cebab91c65d04d1d992a",
+      "worker_results.json": "10dda10ee57d7f87c513d558c05efbbe28f18756a1754244c79a65d3f3de718c",
+      "best.json": "e082bccf75087c53d448db35c6e4c0946069ad6a795e23b3d736e07ae246e19a",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "S4FCC",
+    "run_directory": "runs/S4FCC/CMHA_FCC_J4_S4FCC_L11_allworkers_targetstop_max3600s_seed21013001_20261013_132735",
+    "files": {
+      "run_config.json": "5a75cc80decf680fb6ae6c2b568015796d109033cf1528863c449b646381e6c9",
+      "worker_results.json": "f1591cc57f92bb0af31feffcbc3e9c2e8073c140158c1f25683bfc714c694f36",
+      "best.json": "c2ad6dae2ca993de5bf5aee5dd5d1f6f24ceb95b248cb1cf47aecb8d19e7efdc",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "F180_1FCC",
+    "run_directory": "runs/F180_1FCC/CMHA_FCC_J4_F180_1FCC_L12_10800s_seed21013001_20261012_153318",
+    "files": {
+      "run_config.json": "1859fefa7717b4947091fb2f59157708264e6944257ab864a65d993047de9a62",
+      "worker_results.json": "a43285b6c11655132a29bf418302a69dbcc40768b3e477c466fd93502596ba8b",
+      "best.json": "39813d03e344613532c2c2c7906978c9145114c8137cb756f6cd53122bdb9fc2",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "F180_2FCC",
+    "run_directory": "runs/F180_2FCC/CMHA_FCC_J4_F180_2FCC_L12_10800s_seed21013001_20261012_153318",
+    "files": {
+      "run_config.json": "cbeb07486f85ec8bee5b943fbc5537776d0e2d70fbab3964e64dac38d2613571",
+      "worker_results.json": "95a6bf339a7d6a40600ff38892e89a6a56e99c27ba7dacd9273e223f29815ad9",
+      "best.json": "8465da5f6670056c40a44f6413020b5c31255194526b92ad38b4aceda1c9ca9d",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "F180_3FCC",
+    "run_directory": "runs/F180_3FCC/CMHA_FCC_J4_F180_3FCC_L12_10800s_seed21013001_20261012_153318",
+    "files": {
+      "run_config.json": "922e8c836d4050abe8065adeed9f1bf06de0f05694605091781aee869d161f14",
+      "worker_results.json": "874a0da72dd43bb8f13f6e6f41d0ed2c1b5fad2316023f3ecc8f560c57fb1037",
+      "best.json": "bac8ed9af39105a32f58a0c588d5738cdba068f90431371f3c16412928519c25",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "R1FCC",
+    "run_directory": "runs/R1FCC/CMHA_FCC_J4_R1FCC_L19_10800s_seed21013001_20261013_040307",
+    "files": {
+      "run_config.json": "65cb5cea699c953149cedaf659bfae46e9b7d2899d34ecde5c14eb5b0403dc79",
+      "worker_results.json": "8a5c89707b72033f720a9f8c0f197b2f16c63cf0b2736a3e07da7d7ef095c277",
+      "best.json": "ccb40a667b3958f14a883290a51ae6660c39d69337cc2f26f4e2c3c8b46b37e6",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "R2FCC",
+    "run_directory": "runs/R2FCC/CMHA_FCC_J4_R2FCC_L19_10800s_seed21013001_20261013_040307",
+    "files": {
+      "run_config.json": "320780f7bcf91b75e6c13ec21fa212cdc160a9b42a5b4f824c0a634475939857",
+      "worker_results.json": "c428b7e951d3dea8973ee6ed8925ceef0014dcd0ab55cd9ecca7b97f5ee89b1c",
+      "best.json": "3d3da340e4b4608e62a705306ba647791a02a03dd1fd0403e05e1c541e6d3191",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "R3FCC",
+    "run_directory": "runs/R3FCC/CMHA_FCC_J4_R3FCC_L19_10800s_seed21013001_20261013_040307",
+    "files": {
+      "run_config.json": "00b8d5cabbfe8946dfb52fbe7b57b28a1cdbd5d44ac5fc21331e1e2ab761e1cd",
+      "worker_results.json": "abbf51a290903aba031610162dd707e1e628b8da36fd4b65dfb489572745d5bf",
+      "best.json": "f876a82564133413fdc05ca09cdb7e5252ce4397729e4882e32145756d5d3e0e",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "3mse",
+    "run_directory": "runs/3mse/CMHA_FCC_ORIGINAL_CCP_3mse_L12_21600s_seed21013001_20261011_032201",
+    "files": {
+      "run_config.json": "e129a0cfe94eb316d1efc5df167f9a8ab2ee8afbab2bdee9d5e27f0b6d006044",
+      "worker_results.json": "96eef6dc457144265d2704d76137c45ac2a4e67f3db2d82aa8a584065f249f57",
+      "best.json": "d79d4f7d7c9d8ac9b4ade06abfc78689b068476cd811eae6e6bd4d2b47b02a7e",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "3mr7",
+    "run_directory": "runs/3mr7/CMHA_FCC_ORIGINAL_CCP_3mr7_L13_21600s_seed21013001_20261011_032201_historical_copy",
+    "files": {
+      "run_config.json": "09c2995f3f3ca7f6aba500fd45e6ecbed05315335bdbfd6c333a4afc5f40dad6",
+      "worker_results.json": "4128bf5e3b7c4b9793b481e1720c95b8fd88c1f1fab3f0a685514b31edb6d52d",
+      "best.json": "e9046c6c372aa7af8bbe6bbc6cfa7f9e253759022db78ce203907bfa6082fbe0",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "3mqz",
+    "run_directory": "runs/3mqz/CMHA_FCC_ORIGINAL_CCP_3mqz_L14_21600s_seed21013001_20261011_032201",
+    "files": {
+      "run_config.json": "e97ecfb15b5c388d954f5624f6866e5f5e14546d8b94934a41195730640eeadc",
+      "worker_results.json": "008c0c3b515af7a24d25f8bacd40546e92cf069b0d1731accd5f0d6d90872c06",
+      "best.json": "7a7b839337e0637dc864dbccf32e163a4710bfd3de986456e0746958e9a1a1ac",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "3no6",
+    "run_directory": "runs/3no6/CMHA_FCC_ORIGINAL_CCP_3no6_L15_21600s_seed21013001_20261011_032201",
+    "files": {
+      "run_config.json": "a9aa8468453a209259a608f6ceb7d7acb55fbc0560a6c09894a3c547312b26c5",
+      "worker_results.json": "3924c2b8423b7da3b75a4ac9ca992da87dd07a18249f230b072f81d7e8bc8553",
+      "best.json": "f7a45600f2abed9c3a21042041e8e5707e8784b678362a8f95b78a46e1ceb02f",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "3no3",
+    "run_directory": "runs/3no3/CMHA_FCC_ORIGINAL_CCP_3no3_L17_21600s_seed21013001_20261011_032201_historical_copy",
+    "files": {
+      "run_config.json": "804b18a2f64301f7b8879659256f0d9efc829a134e27cd9276fe8c416272e219",
+      "worker_results.json": "4d79c86da3a514957d697b3afae56583123da23378dbf7e66b7a6988a3ba9b0f",
+      "best.json": "91c5e9731683818aacbe11e7bd179f072dc7e11e680fa0d6cb7837b337c919d2",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "primary",
+    "benchmark": "3on7",
+    "run_directory": "runs/3on7/CMHA_FCC_ORIGINAL_CCP_3on7_L19_21600s_seed21013001_20261011_032201",
+    "files": {
+      "run_config.json": "2d5765aa243b0d76feea9aeeeb7d8e6b0546a805eae65326cca634d2e85c876e",
+      "worker_results.json": "57df5f40f1b07c1ce294ddaacc2a7264d351d735464dd671ac62a329f776336a",
+      "best.json": "cf92db67a6cd3bd8c36c31dfaf08faef5b97eecf523d36e115b947b966701c43",
+      "source_sha256.json": "b7150cad7fd5c646193f39b8ca61879bb944ad1f4971a42b64072d6f0403f275"
+    },
+    "solver_source_hashes": {
+      "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+      "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+      "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+      "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+      "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+      "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+      "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+      "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+      "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+      "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+      "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+      "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+      "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+      "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+      "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+      "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+      "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+      "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+      "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+      "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+      "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "full_cmha_repeat",
+    "benchmark": "F180_1FCC",
+    "run_directory": "runs/FCC_ablation/full_cmha_repeat/F180_1FCC/CMHA_FULL_REPEAT_F180_1FCC_L12_10800s_seed21013001_20261018_113656",
+    "files": {
+      "run_config.json": "a47b2ad0f37c291732778383a89983458c3994b312964c23af4bf9cbc3003d4e",
+      "worker_results.json": "beecdf78d8dff9a3a19a02af22268af7207c06155cd2c5539e00f3ae2abbc8be",
+      "best.json": "65584591bb8eaf504da3d0fadce86d696a21c721f1993258160dff786808c010"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "single_block",
+    "benchmark": "F180_1FCC",
+    "run_directory": "runs/FCC_ablation/single_block/F180_1FCC/CMHA_SINGLE_BLOCK_F180_1FCC_L12_10800s_seed21013001_20261013_155736",
+    "files": {
+      "run_config.json": "876868f15a814e8c972338ee1b9acc36ef5bfe47cd924bafed0afb3eab49de83",
+      "worker_results.json": "40c6087e921576ab7c158062ff3d1ed7b62afb3e0bfb958502b416103dae814b",
+      "best.json": "ba028a61bad8be4d9f010c4cf7c83ab621fb7d8ce5066c01b76e830588ccdf26"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "single_paired_block",
+    "benchmark": "F180_1FCC",
+    "run_directory": "runs/FCC_ablation/single_paired_block/F180_1FCC/CMHA_J2_F180_1FCC_L12_10800s_seed21013001_20261014_125232",
+    "files": {
+      "run_config.json": "83432e97eabe289a12b95298f45af328aae115a92c92a5954114115f2c3d9d4a",
+      "worker_results.json": "bb19305a894a95d8385166edf174071c6193f0b4671afac555442c637b53f2da",
+      "best.json": "786fe9815ff096d31ef68726efbbe7420e93e08e174992bb2f4b64ce211da898"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_p_run_windows",
+    "benchmark": "F180_1FCC",
+    "run_directory": "runs/FCC_ablation/without_p_run_windows/F180_1FCC/CMHA_NO_P_RUN_F180_1FCC_L12_10800s_seed21013001_20261015_014940",
+    "files": {
+      "run_config.json": "9d27173b9794993ae907c927cb3e75a2425473b4b96995f610f7623ecbb54e4c",
+      "worker_results.json": "d25d355dc3cbf365da2e5ca69f65d7cc9c5f895752348ba4f2cf5172288f83f8",
+      "best.json": "670d66280b5d9d8f6a19710238f32d4d78735dffb7b30c2998e6f6b2cb26d8e7"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_contact_conditioning",
+    "benchmark": "F180_1FCC",
+    "run_directory": "runs/FCC_ablation/without_contact_conditioning/F180_1FCC/CMHA_NO_CONTACT_F180_1FCC_L12_10800s_seed21013001_20261016_001524",
+    "files": {
+      "run_config.json": "daf06dd15c150966211f7a94984fbd75d1bbcb0a32afc7a86106071ffda096c1",
+      "worker_results.json": "a2854b86b546cc3a8eb87dd6c78bffee4589782fa738fe072aef64a54bce5495",
+      "best.json": "b4631053ba20240ea526acaaa91c94be278c521627d5aa939083a01e5f9a4dab"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_compact_core_shaping",
+    "benchmark": "F180_1FCC",
+    "run_directory": "runs/FCC_ablation/without_compact_core_shaping/F180_1FCC/CMHA_NO_COMPACT_CORE_F180_1FCC_L12_10800s_seed21013001_20261016_183700",
+    "files": {
+      "run_config.json": "74e398849859e7fe6af172f22f1beb149a9d876a7736b958c3806a6f35fffb66",
+      "worker_results.json": "037652a47c2804a917b452266fda81fbef69843be6f49f9888c71c035834e5e4",
+      "best.json": "16d11c129413728a654a4e5f9cc53c28d6a19c0fc04296157b58f96d91d588f6"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_direct_heat_bath",
+    "benchmark": "F180_1FCC",
+    "run_directory": "runs/FCC_ablation/without_direct_heat_bath/F180_1FCC/CMHA_NO_HEAT_BATH_F180_1FCC_L12_10800s_seed21013001_20261017_134941",
+    "files": {
+      "run_config.json": "d31d2ff2c2e0316cdd9add007c3fc291820de4599c95f475ad666b27ba61b551",
+      "worker_results.json": "123835e79d01ae663c4fd95eea7388bbff88d7d2a165931e4b856afd3648b606",
+      "best.json": "df68b43a0516071b17633742a405d631165792e66b40d3786eb5754fcbf8581f"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "full_cmha_repeat",
+    "benchmark": "R3FCC",
+    "run_directory": "runs/FCC_ablation/full_cmha_repeat/R3FCC/CMHA_FULL_REPEAT_R3FCC_L19_10800s_seed21013001_20261018_113656",
+    "files": {
+      "run_config.json": "abd526bfbac6cf241571c672574cfde800b3c18b24d24d36fcc9d634811caec6",
+      "worker_results.json": "dfb28ea4982434080c2f7380858164586b71dda730667318a4de7cb1f7b62145",
+      "best.json": "15dd6d91c1f00e741e1a6b96c86353c9d698244dc64aea13909b1fc27e404505"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "single_block",
+    "benchmark": "R3FCC",
+    "run_directory": "runs/FCC_ablation/single_block/R3FCC/CMHA_SINGLE_BLOCK_R3FCC_L19_10800s_seed21013001_20261013_155736",
+    "files": {
+      "run_config.json": "d751ecd8dfccd00bb63fb11e4da8fa1b7bde144d9e9dec4355127b537cae5858",
+      "worker_results.json": "453cfe93e72a75c0666c5ec3809238880bc0e84905d97df9938c5afe93925bc7",
+      "best.json": "6e1cd8d7c57d24fcd35ce6ab8d73f1da16360e0ddc05db5288dcb7e72dde1223"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "single_paired_block",
+    "benchmark": "R3FCC",
+    "run_directory": "runs/FCC_ablation/single_paired_block/R3FCC/CMHA_J2_R3FCC_L19_10800s_seed21013001_20261014_125232",
+    "files": {
+      "run_config.json": "1e70040d0953d936105d3ac1d304c53a11432b675ec7cbbe94c8cceb9d175918",
+      "worker_results.json": "0000d5e527a1a7ba7ee91405ba19c7fa87d1b135d206bf189ae8806f426c258c",
+      "best.json": "d02d2de30b0ecd533977f5c9abff0f6ef0f3f3b4248312504645af3341018c27"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_p_run_windows",
+    "benchmark": "R3FCC",
+    "run_directory": "runs/FCC_ablation/without_p_run_windows/R3FCC/CMHA_NO_P_RUN_R3FCC_L19_10800s_seed21013001_20261015_014940",
+    "files": {
+      "run_config.json": "9427c95dadbec5e2aa0d5aaf18a82fd101b70827f7ba69805eaf01c569d58096",
+      "worker_results.json": "960d58071b94e4c3871a97a99298ab325cd59d29b6094dacc0294fffd9e99b0c",
+      "best.json": "84744455ba11ad527ebf19a1858e04586ff8ce63ece144225e3c2d55892475e5"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_contact_conditioning",
+    "benchmark": "R3FCC",
+    "run_directory": "runs/FCC_ablation/without_contact_conditioning/R3FCC/CMHA_NO_CONTACT_R3FCC_L19_10800s_seed21013001_20261016_001524",
+    "files": {
+      "run_config.json": "9b81d2c2e889fbb9df2e525174755d12421918908c8915f986ebbbb2e830553c",
+      "worker_results.json": "bb7d1bd953ac31c01462a98571825cefc655a5dd4d090cc8c5993ccf335f9aa2",
+      "best.json": "f8732324de44c30208f140556db4b29a6b6c9af703f952e04e29ea17bfb87b6b"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_compact_core_shaping",
+    "benchmark": "R3FCC",
+    "run_directory": "runs/FCC_ablation/without_compact_core_shaping/R3FCC/CMHA_NO_COMPACT_CORE_R3FCC_L19_10800s_seed21013001_20261016_183700",
+    "files": {
+      "run_config.json": "c20f470ec8c789ea3746ea4494eaa49f0f82dadb8fdc813beb3ec8e4c6a500f0",
+      "worker_results.json": "3d656a25d1cd4d677366bf3433c0dcdba7dffd8b52dc79a28dd471f3a81cd5c0",
+      "best.json": "9d3dfd4e705452bdd51b5c3dfd88772f5c4b01b890611b033c1b691459a392c1"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_direct_heat_bath",
+    "benchmark": "R3FCC",
+    "run_directory": "runs/FCC_ablation/without_direct_heat_bath/R3FCC/CMHA_NO_HEAT_BATH_R3FCC_L19_10800s_seed21013001_20261017_134941",
+    "files": {
+      "run_config.json": "58a556dc45aa26bdb557f9bf20045b11f649bd0d2a9537d5111c5c134c3c96b3",
+      "worker_results.json": "7a3edcac26b6f16eff11a80f01e0253137153cbb665b097929382e93fff3a0a2",
+      "best.json": "a131f606dcdc54e65da7ec09cdc4e8d19bcedb55ac2c0ffafad7156eae43f7bc"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "full_cmha_repeat",
+    "benchmark": "3mr7",
+    "run_directory": "runs/FCC_ablation/full_cmha_repeat/3mr7/CMHA_FULL_REPEAT_3mr7_L13_21600s_seed21013001_20261018_113656",
+    "files": {
+      "run_config.json": "19c970ddb0553586a301c7b5aa72bb87fa6dd01da8a5e5e039cac95412a05a13",
+      "worker_results.json": "d463538b9c9b1712e56f7ab029d92e695e10a1b8f3330b656cdb180cbf3eeb30",
+      "best.json": "ce141052f4b5b0642f404a98b7126e252eaa6fe1cba6dda423a8045a94f88a49"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "single_block",
+    "benchmark": "3mr7",
+    "run_directory": "runs/FCC_ablation/single_block/3mr7/CMHA_SINGLE_BLOCK_3mr7_L13_21600s_seed21013001_20261013_155736",
+    "files": {
+      "run_config.json": "7cc2c8a77844029f4d5544001547e62abc8187faaaaf31bd95edc426cb328f49",
+      "worker_results.json": "ded0c290e453c57a9fa7210967caa0881b85ea069e279a64192bb3fe4bd50180",
+      "best.json": "394126015f4b5a930522ab3e867dd31dfd2c88ae25be33928ba405daf786df93"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "single_paired_block",
+    "benchmark": "3mr7",
+    "run_directory": "runs/FCC_ablation/single_paired_block/3mr7/CMHA_J2_3mr7_L13_21600s_seed21013001_20261014_125232_historical_copy",
+    "files": {
+      "run_config.json": "c3421b887dbbb9735d3c0bf07972cd809abdd150d80fc390aa93d9d13fa93143",
+      "worker_results.json": "1386c1a048f0a05d6237b93810b2a8f6fe37c1f0c4e4d42df7635d9d4b9ef8eb",
+      "best.json": "d222b985714fa0952ac62ba27aa4087cb3f0636d09c7f3bd3094e3550811a1b7"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_p_run_windows",
+    "benchmark": "3mr7",
+    "run_directory": "runs/FCC_ablation/without_p_run_windows/3mr7/CMHA_NO_P_RUN_3mr7_L13_21600s_seed21013001_20261015_014940",
+    "files": {
+      "run_config.json": "e8a3145bcb8919176652e2e809fde33b2316f13d7df90044151d16d2ae6aa52c",
+      "worker_results.json": "943b6f1936e0ba066af59fe23884d35effc77c380ea3273d7b131d0bc83fe834",
+      "best.json": "afc23315c43e76c53bf8463e6f879b4d968482575cd3785ce1f5b807de8b34ba"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_contact_conditioning",
+    "benchmark": "3mr7",
+    "run_directory": "runs/FCC_ablation/without_contact_conditioning/3mr7/CMHA_NO_CONTACT_3mr7_L13_21600s_seed21013001_20261016_001524",
+    "files": {
+      "run_config.json": "138d3b51c42d213179bf0c173c91f6bdece9aada42656dc4e8987962fd74edd1",
+      "worker_results.json": "31f9101fcd6f336d40fcca8c4e7ddefb8e720cc7a45abd8e20f1154386fac783",
+      "best.json": "c4af705cba6034d9ad8865b16080059bbb227ef0606dd65138625c9925fccc17"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_compact_core_shaping",
+    "benchmark": "3mr7",
+    "run_directory": "runs/FCC_ablation/without_compact_core_shaping/3mr7/CMHA_NO_COMPACT_CORE_3mr7_L13_21600s_seed21013001_20261016_183700",
+    "files": {
+      "run_config.json": "2dd9170b13b4d3a7c929230da812f96190e47ddd3ce47d25ec8708c579ffbdf7",
+      "worker_results.json": "5866c11da7382160e9be54932786b1aba9df04d8de0204113dc6a58a53e55d00",
+      "best.json": "37aa787d953f3d94a774fabe3f3e450750cb7442a79fbd489fe1d64875f39679"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_direct_heat_bath",
+    "benchmark": "3mr7",
+    "run_directory": "runs/FCC_ablation/without_direct_heat_bath/3mr7/CMHA_NO_HEAT_BATH_3mr7_L13_21600s_seed21013001_20261017_134941",
+    "files": {
+      "run_config.json": "70f2204d3ef2e7aba668b6b6bb5fa44e89e9672337ab25af4ebf1455efbd25f4",
+      "worker_results.json": "0c1a02618e2083ca30f9dd345a2fcb0b6ab16747d0b126f42c4432e409376eb3",
+      "best.json": "b07606b9d39d51e62c55092a08db90dc0abd08835401ce0e6fae0fcf01a018c8"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "full_cmha_repeat",
+    "benchmark": "3no3",
+    "run_directory": "runs/FCC_ablation/full_cmha_repeat/3no3/CMHA_FULL_REPEAT_3no3_L17_21600s_seed21013001_20261018_113656",
+    "files": {
+      "run_config.json": "fe0648e9689450dd56e8459e86a92d3e1574d510f4659fe7eb7bbdc08880abd0",
+      "worker_results.json": "3322c0e3e041fbdde3ad37f5fef365293a8f8268cb50ce85b04bb97a5c7bc866",
+      "best.json": "dff5bf096f8b55d8e3549aac2e6cd426d3c3a4acc29ca933c998d67841bacc80"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "single_block",
+    "benchmark": "3no3",
+    "run_directory": "runs/FCC_ablation/single_block/3no3/CMHA_SINGLE_BLOCK_3no3_L17_21600s_seed21013001_20261013_155736",
+    "files": {
+      "run_config.json": "8ddd68e4928986d764bc9a5a9963ae0b60e74c9029e56afd766eb71a5b5f7081",
+      "worker_results.json": "235865ef36a5797229715f5257ca32b1a24934e4ce701c8812034b04f7a36c3d",
+      "best.json": "a8c65fbcf8e4c352b5904bf2eae6117bc385f97f79f6567f42c94c176470fa49"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "single_paired_block",
+    "benchmark": "3no3",
+    "run_directory": "runs/FCC_ablation/single_paired_block/3no3/CMHA_J2_3no3_L17_21600s_seed21013001_20261014_125232_historical_copy",
+    "files": {
+      "run_config.json": "340795ffd7de2d6bb0212d7dc0c56d26633ffab894f60cb4f34b1887225ed2e4",
+      "worker_results.json": "01062fa00081b77c42e63e487a29b9e0f14d9c433a0c755188666cc3ca93afb8",
+      "best.json": "de0cc702231d948294a7634edcb9f7eb00216edf410ba92aa77dc2265687e572"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_p_run_windows",
+    "benchmark": "3no3",
+    "run_directory": "runs/FCC_ablation/without_p_run_windows/3no3/CMHA_NO_P_RUN_3no3_L17_21600s_seed21013001_20261015_014940",
+    "files": {
+      "run_config.json": "0fe5cc38765fa2af62a670d743877cfbf85c8a75a19e2629272e8243c7829e35",
+      "worker_results.json": "a85275215dacab362980c7b70d4dbea8fae0d6b43bc3a7be244ef7989450fed1",
+      "best.json": "f518888e51884775c463714ccf3ef1e04c0e62d7d6d2851d1f647661ca3fcdf2"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_contact_conditioning",
+    "benchmark": "3no3",
+    "run_directory": "runs/FCC_ablation/without_contact_conditioning/3no3/CMHA_NO_CONTACT_3no3_L17_21600s_seed21013001_20261016_001524",
+    "files": {
+      "run_config.json": "d81eb564857c5980b6984361db0bac35d24657eb3a1dd0b53fc8c186f51d6650",
+      "worker_results.json": "a2998c1e6e21c2b447d298df5593f3f7d94f682ded6a25a6e9bf06cfeee19541",
+      "best.json": "60b9d28794021b4fabe5cb807d0ef4c17170218efa469c6e1dd3174a3af0b435"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_compact_core_shaping",
+    "benchmark": "3no3",
+    "run_directory": "runs/FCC_ablation/without_compact_core_shaping/3no3/CMHA_NO_COMPACT_CORE_3no3_L17_21600s_seed21013001_20261016_183700",
+    "files": {
+      "run_config.json": "dbbd4bcd8c8332a9f9ad515bf34fadab3142cbc4ac41b8ca32f2c321196e9f2b",
+      "worker_results.json": "cf02619af225f30ca877452e5002908caa9a5fcbcbe223292050252de25d1dd8",
+      "best.json": "d5fc9c42b48a7d40f188d93f7908d55ece304293ab9e508f4e735081e872df6c"
+    }
+  },
+  {
+    "study": "ablation",
+    "variant": "without_direct_heat_bath",
+    "benchmark": "3no3",
+    "run_directory": "runs/FCC_ablation/without_direct_heat_bath/3no3/CMHA_NO_HEAT_BATH_3no3_L17_21600s_seed21013001_20261017_134941",
+    "files": {
+      "run_config.json": "5809cb2912e6ab71967b2f8f46c38fa39090bc26446c1446d4b85bc400387696",
+      "worker_results.json": "15d2458ea43c9d42dbc3981ad44e1b3ce472d937e04a0b7ef978532803aaceb6",
+      "best.json": "3e8f49526eb5995100ffb4e81f8887c873fd5c4fd60fd67fec754c8356d497b2"
+    }
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "F90_1FCC": {
+    "ELP_plus": 168,
+    "K_ACO": 168
+  },
+  "F90_2FCC": {
+    "ELP_plus": 168,
+    "K_ACO": 167
+  },
+  "F90_3FCC": {
+    "ELP_plus": 167,
+    "K_ACO": 165
+  },
+  "F90_4FCC": {
+    "ELP_plus": 168,
+    "K_ACO": 167
+  },
+  "F90_5FCC": {
+    "ELP_plus": 167,
+    "K_ACO": 167
+  },
+  "S1FCC": {
+    "ELP_plus": 355,
+    "K_ACO": 357
+  },
+  "S2FCC": {
+    "ELP_plus": 359,
+    "K_ACO": 356
+  },
+  "S3FCC": {
+    "ELP_plus": 364,
+    "K_ACO": null
+  },
+  "S4FCC": {
+    "ELP_plus": 365,
+    "K_ACO": 360
+  },
+  "F180_1FCC": {
+    "ELP_plus": 363,
+    "K_ACO": 352
+  },
+  "F180_2FCC": {
+    "ELP_plus": 364,
+    "K_ACO": 350
+  },
+  "F180_3FCC": {
+    "ELP_plus": 368,
+    "K_ACO": 363
+  },
+  "R1FCC": {
+    "ELP_plus": 369,
+    "K_ACO": 353
+  },
+  "R2FCC": {
+    "ELP_plus": 366,
+    "K_ACO": 347
+  },
+  "R3FCC": {
+    "ELP_plus": 370,
+    "K_ACO": 346
+  },
+  "3mse": {
+    "ELP_plus": 291,
+    "K_ACO": 286
+  },
+  "3mr7": {
+    "ELP_plus": 351,
+    "K_ACO": 326
+  },
+  "3mqz": {
+    "ELP_plus": 439,
+    "K_ACO": 426
+  },
+  "3no6": {
+    "ELP_plus": 415,
+    "K_ACO": 410
+  },
+  "3no3": {
+    "ELP_plus": 462,
+    "K_ACO": 425
+  },
+  "3on7": {
+    "ELP_plus": 548,
+    "K_ACO": 510
+  }
+}

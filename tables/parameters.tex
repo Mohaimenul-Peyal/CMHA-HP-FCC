@@ -1,0 +1,24 @@
+\begin{tabular}{@{}ll@{}}
+\toprule
+Parameter & Value \\
+\midrule
+Workers / base seed & 16 / 21013001 \\
+Worker seed stride & 1000003 \\
+Temperature endpoints & $8.0\rightarrow0.02$ \\
+Requested cycle lengths & $80000\times2^s$ proposals \\
+Stagnant cycles for advancement & 2 complete cycles \\
+Estimated cycle-duration cap & $W/8$ \\
+Terminal-cooling trigger & Requested cycle does not fit, or $\leq5\%$ budget \\
+Ordinary block caps & $12,16,20,24$ residues \\
+Compact-core multipliers & $1.0,0.66,0.33,0.0$ \\
+Pair / shaping coefficients & $-2.0$ / $-0.5$ \\
+Single-block beam widths & 24, 48, 96 (resource-controlled) \\
+Joint beam / expansion cap & 24 / 12000 per proposal \\
+P-run / eligible conditioning & $0.50$ / $0.25$ \\
+Archive capacity / contact gap & 16 folds / 2 contacts \\
+P-refresh patience / cooldown & 1200 s / 600 s \\
+P-refresh attempts / expansion cap & 128 / 12000 per attempt \\
+Vacancy-guidance pulse & 256000 ordinary proposals \\
+Kernel control chunk & 8 proposals \\
+\bottomrule
+\end{tabular}

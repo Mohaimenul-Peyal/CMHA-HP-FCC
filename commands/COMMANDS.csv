@@ -1,0 +1,60 @@
+kind,benchmark,command
+primary,H1,python run_cmha.py --benchmark H1
+primary,H2,python run_cmha.py --benchmark H2
+primary,H3,python run_cmha.py --benchmark H3
+primary,H4,python run_cmha.py --benchmark H4
+primary,H5,python run_cmha.py --benchmark H5
+primary,H6,python run_cmha.py --benchmark H6
+primary,H7,python run_cmha.py --benchmark H7
+primary,H8,python run_cmha.py --benchmark H8
+primary,H9,python run_cmha.py --benchmark H9
+primary,H10,python run_cmha.py --benchmark H10
+primary,F90_1FCC,python run_cmha.py --benchmark F90_1FCC
+primary,F90_2FCC,python run_cmha.py --benchmark F90_2FCC
+primary,F90_3FCC,python run_cmha.py --benchmark F90_3FCC
+primary,F90_4FCC,python run_cmha.py --benchmark F90_4FCC
+primary,F90_5FCC,python run_cmha.py --benchmark F90_5FCC
+primary,S1FCC,python run_cmha.py --benchmark S1FCC
+primary,S2FCC,python run_cmha.py --benchmark S2FCC
+primary,S3FCC,python run_cmha.py --benchmark S3FCC
+primary,S4FCC,python run_cmha.py --benchmark S4FCC
+primary,F180_1FCC,python run_cmha.py --benchmark F180_1FCC
+primary,F180_2FCC,python run_cmha.py --benchmark F180_2FCC
+primary,F180_3FCC,python run_cmha.py --benchmark F180_3FCC
+primary,R1FCC,python run_cmha.py --benchmark R1FCC
+primary,R2FCC,python run_cmha.py --benchmark R2FCC
+primary,R3FCC,python run_cmha.py --benchmark R3FCC
+primary,3mse,python run_cmha.py --benchmark 3mse
+primary,3mr7,python run_cmha.py --benchmark 3mr7
+primary,3mqz,python run_cmha.py --benchmark 3mqz
+primary,3no6,python run_cmha.py --benchmark 3no6
+primary,3no3,python run_cmha.py --benchmark 3no3
+primary,3on7,python run_cmha.py --benchmark 3on7
+full_cmha_repeat,F180_1FCC,python run_cmha.py --benchmark F180_1FCC --ablation full_cmha_repeat
+single_block,F180_1FCC,python run_cmha.py --benchmark F180_1FCC --ablation single_block
+single_paired_block,F180_1FCC,python run_cmha.py --benchmark F180_1FCC --ablation single_paired_block
+without_p_run_windows,F180_1FCC,python run_cmha.py --benchmark F180_1FCC --ablation without_p_run_windows
+without_contact_conditioning,F180_1FCC,python run_cmha.py --benchmark F180_1FCC --ablation without_contact_conditioning
+without_compact_core_shaping,F180_1FCC,python run_cmha.py --benchmark F180_1FCC --ablation without_compact_core_shaping
+without_direct_heat_bath,F180_1FCC,python run_cmha.py --benchmark F180_1FCC --ablation without_direct_heat_bath
+full_cmha_repeat,R3FCC,python run_cmha.py --benchmark R3FCC --ablation full_cmha_repeat
+single_block,R3FCC,python run_cmha.py --benchmark R3FCC --ablation single_block
+single_paired_block,R3FCC,python run_cmha.py --benchmark R3FCC --ablation single_paired_block
+without_p_run_windows,R3FCC,python run_cmha.py --benchmark R3FCC --ablation without_p_run_windows
+without_contact_conditioning,R3FCC,python run_cmha.py --benchmark R3FCC --ablation without_contact_conditioning
+without_compact_core_shaping,R3FCC,python run_cmha.py --benchmark R3FCC --ablation without_compact_core_shaping
+without_direct_heat_bath,R3FCC,python run_cmha.py --benchmark R3FCC --ablation without_direct_heat_bath
+full_cmha_repeat,3mr7,python run_cmha.py --benchmark 3mr7 --ablation full_cmha_repeat
+single_block,3mr7,python run_cmha.py --benchmark 3mr7 --ablation single_block
+single_paired_block,3mr7,python run_cmha.py --benchmark 3mr7 --ablation single_paired_block
+without_p_run_windows,3mr7,python run_cmha.py --benchmark 3mr7 --ablation without_p_run_windows
+without_contact_conditioning,3mr7,python run_cmha.py --benchmark 3mr7 --ablation without_contact_conditioning
+without_compact_core_shaping,3mr7,python run_cmha.py --benchmark 3mr7 --ablation without_compact_core_shaping
+without_direct_heat_bath,3mr7,python run_cmha.py --benchmark 3mr7 --ablation without_direct_heat_bath
+full_cmha_repeat,3no3,python run_cmha.py --benchmark 3no3 --ablation full_cmha_repeat
+single_block,3no3,python run_cmha.py --benchmark 3no3 --ablation single_block
+single_paired_block,3no3,python run_cmha.py --benchmark 3no3 --ablation single_paired_block
+without_p_run_windows,3no3,python run_cmha.py --benchmark 3no3 --ablation without_p_run_windows
+without_contact_conditioning,3no3,python run_cmha.py --benchmark 3no3 --ablation without_contact_conditioning
+without_compact_core_shaping,3no3,python run_cmha.py --benchmark 3no3 --ablation without_compact_core_shaping
+without_direct_heat_bath,3no3,python run_cmha.py --benchmark 3no3 --ablation without_direct_heat_bath

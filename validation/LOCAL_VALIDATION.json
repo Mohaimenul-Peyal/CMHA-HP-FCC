@@ -1,0 +1,60 @@
+{
+  "validation_date": "2026-10-26",
+  "platform": "Windows",
+  "python": "3.12.7",
+  "dependencies": {
+    "numpy": "1.26.4",
+    "numba": "0.60.0",
+    "matplotlib": "3.9.2"
+  },
+  "unit_tests": {
+    "run": 20,
+    "failures": 0,
+    "errors": 0
+  },
+  "archived_data": {
+    "all_checks_passed": true,
+    "worker_folds": {
+      "primary": 496,
+      "ablation": 448
+    },
+    "primary_best_folds": 31,
+    "summary_groups": 59,
+    "initial_walks": 944,
+    "matched_initial_walks_identical": true,
+    "checks": [
+      "integrality",
+      "FCC parity",
+      "box bounds",
+      "site exclusivity",
+      "chain connectivity",
+      "pair/spatial contact agreement",
+      "sequence hashes",
+      "best/mean/sample-SD agreement"
+    ]
+  },
+  "short_parallel_software_checks": [
+    {
+      "variant": "full",
+      "workers": 2,
+      "max_proposals_per_worker": 64,
+      "configured_wall_seconds": 3,
+      "completed": true,
+      "independent_fold_validation_passed": true
+    },
+    {
+      "variant": "without_direct_heat_bath",
+      "workers": 2,
+      "max_proposals_per_worker": 64,
+      "configured_wall_seconds": 3,
+      "completed": true,
+      "independent_fold_validation_passed": true
+    }
+  ],
+  "primary_numeric_results_unchanged": true,
+  "recorded_profiles_unchanged": 59,
+  "frozen_runtime_files": 42,
+  "numerical_runtime_changes": 0,
+  "github_actions": "Configured for Linux/Windows; hosted jobs have not yet run",
+  "scope": "Software and archived-evidence verification, not a repetition of publication experiments"
+}

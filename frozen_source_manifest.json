@@ -1,0 +1,296 @@
+[
+  {
+    "repository_path": "engines/CMHA/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/export_3d_FCC_HP_cluster_qubo_light.py",
+    "original_snapshot_path": "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py",
+    "original_sha256": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+    "public_sha256": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/fcc_lattice.py",
+    "original_snapshot_path": "source_snapshot/historical_support/fcc_lattice.py",
+    "original_sha256": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+    "public_sha256": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/hp3d_stage_common.py",
+    "original_snapshot_path": "source_snapshot/historical_support/hp3d_stage_common.py",
+    "original_sha256": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+    "public_sha256": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/plot_fcc_hp_fold.py",
+    "original_snapshot_path": "source_snapshot/historical_support/plot_fcc_hp_fold.py",
+    "original_sha256": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+    "public_sha256": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/rb_qubo_3d_common.py",
+    "original_snapshot_path": "source_snapshot/historical_support/rb_qubo_3d_common.py",
+    "original_sha256": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+    "public_sha256": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/run_hp3d_fcc_utlc_q_rbha.py",
+    "original_snapshot_path": "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py",
+    "original_sha256": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+    "public_sha256": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/run_r1_r3_utlc_fullbudget.py",
+    "original_snapshot_path": "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py",
+    "original_sha256": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+    "public_sha256": "c7bb2847c262ea6f0d783b878d6d27a1c61306951aadf3ce1d1edc78163681b8",
+    "adaptation": "Relative output default in unused legacy batch helper; no search-logic changes"
+  },
+  {
+    "repository_path": "engines/CMHA/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/summarize_utlc_r1_r3.py",
+    "original_snapshot_path": "source_snapshot/historical_support/summarize_utlc_r1_r3.py",
+    "original_sha256": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+    "public_sha256": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/validate_fcc_fold.py",
+    "original_snapshot_path": "source_snapshot/historical_support/validate_fcc_fold.py",
+    "original_sha256": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+    "public_sha256": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/verify_r_suite_sources.py",
+    "original_snapshot_path": "source_snapshot/historical_support/verify_r_suite_sources.py",
+    "original_sha256": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171",
+    "public_sha256": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/improved/RA_Q_RBHA_FCC_v2/controller.py",
+    "original_snapshot_path": "source_snapshot/improved/controller.py",
+    "original_sha256": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+    "public_sha256": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/improved/RA_Q_RBHA_FCC_v2/diversity_restart.py",
+    "original_snapshot_path": "source_snapshot/improved/diversity_restart.py",
+    "original_sha256": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+    "public_sha256": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/improved/RA_Q_RBHA_FCC_v2/kernel.py",
+    "original_snapshot_path": "source_snapshot/improved/kernel.py",
+    "original_sha256": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+    "public_sha256": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/improved/RA_Q_RBHA_FCC_v2/p_run_windows.py",
+    "original_snapshot_path": "source_snapshot/improved/p_run_windows.py",
+    "original_sha256": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+    "public_sha256": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/improved/RA_Q_RBHA_FCC_v2/polar_refresh.py",
+    "original_snapshot_path": "source_snapshot/improved/polar_refresh.py",
+    "original_sha256": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+    "public_sha256": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/improved/RA_Q_RBHA_FCC_v2/resource_control.py",
+    "original_snapshot_path": "source_snapshot/improved/resource_control.py",
+    "original_sha256": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+    "public_sha256": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/improved/RA_Q_RBHA_FCC_v2/route_diversity.py",
+    "original_snapshot_path": "source_snapshot/improved/route_diversity.py",
+    "original_sha256": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+    "public_sha256": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/improved/RA_Q_RBHA_FCC_v2/run_ra_q_rbha_fcc.py",
+    "original_snapshot_path": "source_snapshot/improved/run_ra_q_rbha_fcc.py",
+    "original_sha256": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+    "public_sha256": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/improved/RA_Q_RBHA_FCC_v2/support.py",
+    "original_snapshot_path": "source_snapshot/improved/support.py",
+    "original_sha256": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+    "public_sha256": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/improved/RA_Q_RBHA_FCC_v2/vacancy_focus.py",
+    "original_snapshot_path": "source_snapshot/improved/vacancy_focus.py",
+    "original_sha256": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+    "public_sha256": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA/improved/RA_Q_RBHA_FCC_v2/validate_saved_run.py",
+    "original_snapshot_path": "source_snapshot/improved/validate_saved_run.py",
+    "original_sha256": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+    "public_sha256": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/export_3d_FCC_HP_cluster_qubo_light.py",
+    "original_snapshot_path": "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py",
+    "original_sha256": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+    "public_sha256": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/fcc_lattice.py",
+    "original_snapshot_path": "source_snapshot/historical_support/fcc_lattice.py",
+    "original_sha256": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+    "public_sha256": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/hp3d_stage_common.py",
+    "original_snapshot_path": "source_snapshot/historical_support/hp3d_stage_common.py",
+    "original_sha256": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+    "public_sha256": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/plot_fcc_hp_fold.py",
+    "original_snapshot_path": "source_snapshot/historical_support/plot_fcc_hp_fold.py",
+    "original_sha256": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+    "public_sha256": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/rb_qubo_3d_common.py",
+    "original_snapshot_path": "source_snapshot/historical_support/rb_qubo_3d_common.py",
+    "original_sha256": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+    "public_sha256": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/run_hp3d_fcc_utlc_q_rbha.py",
+    "original_snapshot_path": "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py",
+    "original_sha256": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+    "public_sha256": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/run_r1_r3_utlc_fullbudget.py",
+    "original_snapshot_path": "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py",
+    "original_sha256": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+    "public_sha256": "c7bb2847c262ea6f0d783b878d6d27a1c61306951aadf3ce1d1edc78163681b8",
+    "adaptation": "Relative output default in unused legacy batch helper; no search-logic changes"
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/summarize_utlc_r1_r3.py",
+    "original_snapshot_path": "source_snapshot/historical_support/summarize_utlc_r1_r3.py",
+    "original_sha256": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+    "public_sha256": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/validate_fcc_fold.py",
+    "original_snapshot_path": "source_snapshot/historical_support/validate_fcc_fold.py",
+    "original_sha256": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+    "public_sha256": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/baselines/source_families/UTLC_Q_RBHA_FCC/R1_R3_L19_21600s/verify_r_suite_sources.py",
+    "original_snapshot_path": "source_snapshot/historical_support/verify_r_suite_sources.py",
+    "original_sha256": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171",
+    "public_sha256": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/improved/RA_Q_RBHA_FCC_v2/controller.py",
+    "original_snapshot_path": "source_snapshot/improved/controller.py",
+    "original_sha256": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+    "public_sha256": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/improved/RA_Q_RBHA_FCC_v2/diversity_restart.py",
+    "original_snapshot_path": "source_snapshot/improved/diversity_restart.py",
+    "original_sha256": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+    "public_sha256": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/improved/RA_Q_RBHA_FCC_v2/kernel.py",
+    "original_snapshot_path": "source_snapshot/improved/kernel.py",
+    "original_sha256": "664cd958ddcf04fb3660a8efe2cf1b5057814142a98ff93fcfc8781d25d0c983",
+    "public_sha256": "664cd958ddcf04fb3660a8efe2cf1b5057814142a98ff93fcfc8781d25d0c983",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/improved/RA_Q_RBHA_FCC_v2/p_run_windows.py",
+    "original_snapshot_path": "source_snapshot/improved/p_run_windows.py",
+    "original_sha256": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+    "public_sha256": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/improved/RA_Q_RBHA_FCC_v2/polar_refresh.py",
+    "original_snapshot_path": "source_snapshot/improved/polar_refresh.py",
+    "original_sha256": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+    "public_sha256": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/improved/RA_Q_RBHA_FCC_v2/resource_control.py",
+    "original_snapshot_path": "source_snapshot/improved/resource_control.py",
+    "original_sha256": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+    "public_sha256": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/improved/RA_Q_RBHA_FCC_v2/route_diversity.py",
+    "original_snapshot_path": "source_snapshot/improved/route_diversity.py",
+    "original_sha256": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+    "public_sha256": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/improved/RA_Q_RBHA_FCC_v2/run_ra_q_rbha_fcc.py",
+    "original_snapshot_path": "source_snapshot/improved/run_ra_q_rbha_fcc.py",
+    "original_sha256": "13b8b70324ee6c1f3c87342c90a63d661869bd9712ca73f885861a460108eeac",
+    "public_sha256": "13b8b70324ee6c1f3c87342c90a63d661869bd9712ca73f885861a460108eeac",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/improved/RA_Q_RBHA_FCC_v2/support.py",
+    "original_snapshot_path": "source_snapshot/improved/support.py",
+    "original_sha256": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+    "public_sha256": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/improved/RA_Q_RBHA_FCC_v2/vacancy_focus.py",
+    "original_snapshot_path": "source_snapshot/improved/vacancy_focus.py",
+    "original_sha256": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+    "public_sha256": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+    "adaptation": ""
+  },
+  {
+    "repository_path": "engines/CMHA_no_heat_bath/improved/RA_Q_RBHA_FCC_v2/validate_saved_run.py",
+    "original_snapshot_path": "source_snapshot/improved/validate_saved_run.py",
+    "original_sha256": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+    "public_sha256": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+    "adaptation": ""
+  }
+]

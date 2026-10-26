@@ -1,0 +1,31 @@
+{
+  "preparation_date": "2026-10-26",
+  "method": "CMHA",
+  "implementation": "Original CCP-PGR-J4, 80K capped/terminal controller",
+  "source_manifest_sha256": "2c4da2555df54b0b07c36cd83ab13118a463f5bb47c93b6e2775bfcac78f8dde",
+  "path_normalization": "Only machine-specific paths and interpreter locations were normalized. Numerical results are unchanged.",
+  "reporting_scope": "31 primary instances and seven matched configurations on four benchmarks. The separate seed-confirmation study is not part of this release.",
+  "source_snapshots": {
+    "source_snapshot/improved/controller.py": "1d4e547a0037f7d2b5a39a01e95dedd5208cbef32037245da8a872eb8db9a25d",
+    "source_snapshot/improved/diversity_restart.py": "09791b5ae2ff2ba0bfcafa642966085a018ebc72d39aaa0627197c437e76742c",
+    "source_snapshot/improved/kernel.py": "bcfd0fb5dd5b660bcfe1ab421656588feb2a448fbcbd2fa63d36e5a0c44d9077",
+    "source_snapshot/improved/polar_refresh.py": "e38c6ea9820d9e10a3bc17cde322ba159b45765e0f645700cc79b76611e1589e",
+    "source_snapshot/improved/p_run_windows.py": "2ab66ec02821f6b372f11260a6adff4bcf0909123a6e85bdaee01f1955aeebca",
+    "source_snapshot/improved/resource_control.py": "0d01ee99b97e6415e7551020efa9c39e4891081de42e7e01c9aaaa89cbfb7f8d",
+    "source_snapshot/improved/route_diversity.py": "1d8edaad44dc8d8ca2f9346603306e5f225dfd8cbf956271abdb80a7295c34a3",
+    "source_snapshot/improved/run_ra_q_rbha_fcc.py": "28492f9f69c4400923201f8f474230b1be90171c52212bea419e88f124985ac4",
+    "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+    "source_snapshot/improved/vacancy_focus.py": "1bdb5edd2b35817d5b6412a85f8281682909e265720dcea7e31105d017267fe7",
+    "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+    "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+    "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+    "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+    "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+    "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+    "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+    "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+    "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+    "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+    "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+  }
+}
