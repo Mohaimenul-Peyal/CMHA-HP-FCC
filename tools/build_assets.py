@@ -9,9 +9,9 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
-from matplotlib.patches import FancyArrowPatch
 from mpl_toolkits.mplot3d.art3d import Line3DCollection
 import numpy as np
+from draw_cmha_schematics import draw_geometry, draw_multiblock
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / 'data/paper_data.json').read_text())
@@ -157,50 +157,11 @@ def tables():
 
 
 def geometry():
-    fig = plt.figure(figsize=(3.45,3.1))
-    ax = fig.add_subplot(111,projection='3d')
-    deltas = np.asarray([(a,b,0) for a in (-1,1) for b in (-1,1)] +
-                        [(a,0,b) for a in (-1,1) for b in (-1,1)] +
-                        [(0,a,b) for a in (-1,1) for b in (-1,1)])
-    ax.add_collection3d(Line3DCollection([[np.zeros(3),point] for point in deltas],colors='#6c7783',linewidths=1.0))
-    ax.scatter(*deltas.T,s=110,c='#2a91ad',edgecolors='white',linewidths=.6,depthshade=True)
-    ax.scatter(0,0,0,s=170,c='#c94355',edgecolors='white',linewidths=.7,depthshade=True)
-    ax.set(xlim=(-1.5,1.5),ylim=(-1.5,1.5),zlim=(-1.5,1.5),xlabel='$x$',ylabel='$y$',zlabel='$z$')
-    ax.set_xticks([-1,0,1]);ax.set_yticks([-1,0,1]);ax.set_zticks([-1,0,1])
-    ax.set_box_aspect((1,1,1));ax.view_init(24,-57)
-    for axis in (ax.xaxis,ax.yaxis,ax.zaxis):
-        axis.pane.fill=False;axis._axinfo['grid'].update(color='#dddddd',linewidth=.45)
-    fig.subplots_adjust(left=0,right=.98,bottom=0,top=1)
-    save_figure(fig,'fig01_fcc_geometry')
+    draw_geometry(save_figure)
 
 
 def multi_block():
-    fig, axes = plt.subplots(2,1,figsize=(7.15,2.7),gridspec_kw={'height_ratios':[1,1.2]})
-    intervals = ((4,10),(17,23),(29,35),(39,45))
-    colors = ('#167d9a','#b54862','#4c8e62','#8d70a8')
-    ax=axes[0]
-    ax.plot([0,47],[0,0],c='#9ca5ad',lw=1.3,zorder=1)
-    ax.scatter(np.arange(48),np.zeros(48),s=12,c='#ced3d7',zorder=2)
-    for k,((a,b),color) in enumerate(zip(intervals,colors)):
-        ax.scatter(np.arange(a,b),np.zeros(b-a),s=28,c=color,zorder=3)
-        ax.scatter([a-1,b],[0,0],s=39,facecolors='white',edgecolors='#303840',lw=1,zorder=4)
-        ax.text((a+b-1)/2,.24,f'Block {chr(65+k)}',ha='center',va='bottom',fontsize=9,color=color)
-        ax.plot([a,b-1],[-.22,-.22],c=color,lw=2)
-    ax.set_xlim(-1,49);ax.set_ylim(-.5,.7);ax.axis('off')
-    ax.text(-.015,.96,'(a)',transform=ax.transAxes,fontweight='bold',fontsize=10)
-    ax=axes[1]
-    ax.set_xlim(0,10);ax.set_ylim(0,2);ax.axis('off')
-    positions=[(.1,3.0,'Release selected intervals\nKeep exterior residues fixed'),
-               (3.6,3.0,'Alternate extensions\nin one joint beam'),
-               (7.1,2.8,'Score complete union\nDirect heat-bath selection')]
-    for x,width,text in positions:
-        ax.text(x+width/2,1.1,text,ha='center',va='center',fontsize=9,linespacing=1.5,
-            bbox=dict(boxstyle='square,pad=.65',facecolor='#f1f5f7',edgecolor='#b5c5ce',lw=.8))
-    for a,b in ((3.15,3.55),(6.65,7.05)):
-        ax.add_patch(FancyArrowPatch((a,1.1),(b,1.1),arrowstyle='-|>',mutation_scale=13,lw=1,color='#465b67'))
-    ax.text(-.015,.96,'(b)',transform=ax.transAxes,fontweight='bold',fontsize=10)
-    fig.subplots_adjust(left=.03,right=.98,top=.95,bottom=.05,hspace=.15)
-    save_figure(fig,'fig02_multiblock')
+    draw_multiblock(save_figure)
 
 
 def convergence():
@@ -236,35 +197,41 @@ def convergence():
 
 
 def fold_grid():
-    names=('S3FCC','R3FCC','3no3','3on7')
-    fig=plt.figure(figsize=(7.15,6.5))
+    names=('S1FCC','S3FCC','S4FCC','F180_1FCC','F180_2FCC','F180_3FCC',
+           'R1FCC','R2FCC','R3FCC')
+    fig=plt.figure(figsize=(7.15,7.7))
     common_span = max(np.ptp(np.asarray(FOLDS[name]['coords']),axis=0).max() for name in names)+1.0
     for i,name in enumerate(names):
         item=FOLDS[name]
         coords=np.asarray(item['coords'],dtype=float)
-        ax=fig.add_subplot(2,2,i+1,projection='3d')
+        assert item['HH'] == next(r['native_HH'] for r in PRIMARY if r['benchmark']==name)
+        ax=fig.add_subplot(3,3,i+1,projection='3d')
         ax.set_proj_type('ortho')
         segments=np.stack([coords[:-1],coords[1:]],axis=1)
-        ax.add_collection3d(Line3DCollection(segments,colors='#647584',linewidths=.85,alpha=.83))
+        ax.add_collection3d(Line3DCollection(segments,colors='#647584',linewidths=.65,alpha=.83))
         hydrophobic=np.array([residue=='H' for residue in item['seq']])
-        for mask,color,size in ((~hydrophobic,'#6bb8cb',11),(hydrophobic,'#c54258',23)):
+        for mask,color,size in ((~hydrophobic,'#6bb8cb',7),(hydrophobic,'#c54258',14)):
             ax.scatter(*coords[mask].T,s=size,c=color,edgecolors='white',linewidths=.18,depthshade=True,alpha=.97)
         side=item['L']
         center=(coords.min(axis=0)+coords.max(axis=0))/2
         bounds=[(value-common_span/2,value+common_span/2) for value in center]
-        ax.set(xlim=bounds[0],ylim=bounds[1],zlim=bounds[2],xlabel='$x$',ylabel='$y$',zlabel='$z$')
+        ax.set(xlim=bounds[0],ylim=bounds[1],zlim=bounds[2])
+        ax.set_xlabel('$x$',fontsize=8,labelpad=-9)
+        ax.set_ylabel('$y$',fontsize=8,labelpad=-9)
+        ax.set_zlabel('$z$',fontsize=8,labelpad=-9)
         for axis,(lo,hi) in zip((ax.xaxis,ax.yaxis,ax.zaxis),bounds):
             axis.set_ticks(np.linspace(np.ceil(lo),np.floor(hi),3).astype(int))
-        ax.tick_params(labelsize=7,pad=0)
+        ax.tick_params(labelsize=6,pad=-3)
         ax.set_box_aspect((1,1,1));ax.view_init(24,-58)
         for axis in (ax.xaxis,ax.yaxis,ax.zaxis):
             axis.pane.fill=False;axis._axinfo['grid'].update(color='#dddddd',linewidth=.4)
-        text=f'({chr(97+i)}) {name.replace("FCC","").replace("_"," ")}: N={len(item["seq"])}, C={item["HH"]}, L={side}'
-        ax.set_title(text,fontsize=9,pad=1)
+        title=name.replace('FCC','').replace('_',r'\_')
+        text=f'({chr(97+i)}) {name.replace("FCC","")}\n'+rf'$E_{{\rm HP}}=-{item["HH"]}$; $L={side}$'
+        ax.set_title(text,fontsize=8.3,pad=0,linespacing=1.35)
     fig.legend(handles=[Line2D([],[],marker='o',ls='',color='#c54258',label='H residue'),
                         Line2D([],[],marker='o',ls='',color='#6bb8cb',label='P residue')],
                loc='lower center',ncol=2,frameon=False,bbox_to_anchor=(.5,.005),fontsize=9)
-    fig.subplots_adjust(left=0,right=.98,bottom=.065,top=.98,hspace=.12,wspace=.02)
+    fig.subplots_adjust(left=0,right=.99,bottom=.065,top=.965,hspace=.19,wspace=.01)
     save_figure(fig,'fig04_validated_folds')
 
 

@@ -2,7 +2,8 @@ cff-version: 1.2.0
 message: "Please cite this software when using CMHA or its reproducibility data."
 type: software
 title: "CMHA-HP-FCC: Contact-Guided Multi-Block Heat-Bath Annealing"
-version: 1.0.0
+version: 1.1.0
+date-released: 2026-10-27
 license: MIT
 repository-code: "https://github.com/Mohaimenul-Peyal/CMHA-HP-FCC"
 url: "https://github.com/Mohaimenul-Peyal/CMHA-HP-FCC"
@@ -21,7 +22,8 @@ authors:
 abstract: >-
   Classical CMHA optimization for the three-dimensional face-centered cubic
   hydrophobic-polar lattice model, with frozen benchmark profiles, component
-  ablations, validated folds, descriptive worker statistics and plotting tools.
+  ablations, validated folds, independent-seed confirmation, sampled proposal
+  diagnostics, descriptive worker statistics and plotting tools.
 keywords:
   - protein folding
   - hydrophobic-polar model

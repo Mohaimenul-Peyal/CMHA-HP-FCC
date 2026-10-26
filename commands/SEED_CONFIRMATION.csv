@@ -1,0 +1,5 @@
+benchmark,base_seed,workers,wall_s,L,command
+3mr7,42026001,16,21600,13,python run_cmha.py --benchmark 3mr7 --base-seed 42026001
+3no3,42026001,16,21600,17,python run_cmha.py --benchmark 3no3 --base-seed 42026001
+3mr7,63039001,16,21600,13,python run_cmha.py --benchmark 3mr7 --base-seed 63039001
+3no3,63039001,16,21600,17,python run_cmha.py --benchmark 3no3 --base-seed 63039001

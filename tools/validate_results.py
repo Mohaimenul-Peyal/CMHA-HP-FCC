@@ -76,20 +76,45 @@ def main():
         old = initial_by_benchmark.setdefault(pool["benchmark"], pool["initial_coordinates"])
         assert old == pool["initial_coordinates"], "Matched initial walks differ"
     assert counts == {"primary": 496, "ablation": 448}
+    confirmation = json.loads((ROOT / "data/confirmation_data.json").read_text())
+    extra = json.loads((ROOT / "data/confirmation_worker_folds.json").read_text())
+    assert len(extra) == 64
+    extra_groups = {}
+    for row in extra:
+        assert row['seq'] == primary[row['benchmark']]['seq']
+        assert row['L'] == primary[row['benchmark']]['L']
+        assert row['seed'] == row['base_seed'] + 1000003*row['worker_id']
+        assert row['wall_seconds'] >= 21600
+        validate(row['seq'], row['L'], row['coords'], row['HH'])
+        validate(row['seq'], row['L'], row['initial_coords'])
+        extra_groups.setdefault((row['benchmark'],row['base_seed']),[]).append(row['HH'])
+    assert len(extra_groups) == 4
+    for row in confirmation['runs']:
+        if row['role'] == 'original_seed_control':
+            control = next(r for r in data['ablations'] if r['benchmark']==row['benchmark']
+                           and r['variant']=='full_cmha_repeat')
+            values = control['worker_best_HH']
+        else:
+            values = extra_groups[(row['benchmark'], row['base_seed'])]
+        assert len(values) == 16 and sorted(values) == sorted(row['worker_HH'])
+        assert max(values) == row['best_HH']
+        assert abs(statistics.mean(values)-row['mean_HH']) < 1e-8
+        assert abs(statistics.stdev(values)-row['SD_HH']) < 1e-8
+    counts['additional_confirmation'] = len(extra)
     report = {
         "all_checks_passed": True,
         "worker_folds": counts,
         "primary_best_folds": len(folds),
         "summary_groups": len(grouped),
-        "initial_walks": sum(len(x["initial_coordinates"]) for x in initials),
+        "initial_walks": sum(len(x["initial_coordinates"]) for x in initials) + len(extra),
         "matched_initial_walks_identical": True,
         "checks": ["integrality", "FCC parity", "box bounds", "site exclusivity",
                    "chain connectivity", "pair/spatial contact agreement", "sequence hashes",
                    "best/mean/sample-SD agreement"],
     }
-    destination = ROOT / "runs/validation"
+    destination = ROOT / 'runs/validation'
     destination.mkdir(parents=True, exist_ok=True)
-    (destination / "archived_results_validation.json").write_text(json.dumps(report, indent=2) + "\n")
+    (destination / 'archived_results_validation.json').write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps(report, indent=2))
 
 

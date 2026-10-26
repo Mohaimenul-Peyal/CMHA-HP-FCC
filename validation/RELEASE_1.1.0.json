@@ -1,0 +1,21 @@
+{
+  "release": "v1.1.0",
+  "date": "2026-10-27",
+  "unit_tests": 24,
+  "original_solver_and_runtime_files_unchanged": true,
+  "primary_and_ablation_evidence_byte_identical": true,
+  "primary_benchmarks": 31,
+  "ablation_cells": 28,
+  "additional_complete_runs": 4,
+  "worker_folds": {
+    "primary": 496,
+    "ablation": 448,
+    "additional_confirmation": 64
+  },
+  "initial_walks": 1008,
+  "independent_contact_and_geometry_validation_passed": true,
+  "proposal_diagnostic_rows": 32,
+  "synthetic_pool_members": 25,
+  "no_new_benchmark_simulation": true,
+  "no_manuscript_or_portraits_in_release": true
+}

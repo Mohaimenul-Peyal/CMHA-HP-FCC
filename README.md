@@ -63,6 +63,8 @@ S3 is the literal **161-residue** sequence, not the inconsistent 162-residue lab
 - [RESULT_FCC_ablation_comparison.csv](results/RESULT_FCC_ablation_comparison.csv): the complete matched component panel.
 - [worker_best_folds.csv](results/worker_best_folds.csv): all 944 primary/ablation worker-best coordinate records.
 - [best_folds/](results/best_folds/): one independently validated best fold for each primary instance.
+- [SEED_CONFIRMATION.csv](results/SEED_CONFIRMATION.csv): all four additional complete runs and the two reused controls, identified by role and original run ID.
+- [SEED_SET_SUMMARY.csv](results/SEED_SET_SUMMARY.csv): three-base-seed complete-run-best summaries, not worker-level SDs.
 - [examples/H1/](examples/H1/): a compact measured example with initial walks and sixteen worker results.
 
 The reported primary collection matches 25 published Native reference energies.
@@ -73,8 +75,12 @@ Native reference matching is not a new optimality certificate.
 
 **Means and sample SDs describe worker-best folds within one parallel execution,**
 not repeated complete sixteen-worker experiments. Zero SD in all-worker
-target-stopped cases is conditional on that stopping policy. The separate
-independent-seed confirmation batch is outside this release's reported study.
+target-stopped cases is conditional on that stopping policy. Release **v1.1.0**
+adds all four completed independent-seed confirmation runs on 3mr7 and 3no3.
+Together with the fresh original-seed controls, whole-run bests are 350/350/350
+and 474/473/473, respectively. Controls are counted once; interrupted attempts
+and historical copies are not additional replicates. See
+[docs/EVIDENCE_RELEASE.md](docs/EVIDENCE_RELEASE.md) for scope and limitations.
 
 ## Run a suite or ablation
 
@@ -106,21 +112,30 @@ See [docs/ABLATIONS.md](docs/ABLATIONS.md) and [commands/COMMANDS.csv](commands/
 python -m unittest discover -s tests -v
 python tools/validate_results.py
 python tools/verify_repository.py
+python tools/analyze_proposals.py
 python tools/build_assets.py
+python tools/build_evidence_tables.py
 python tools/summarize_run.py --run-dir examples/H1 --check-only
 ```
 
 Validation checks box bounds, FCC parity, site exclusivity, every chain link,
 two independent H-H contact counts, sequence hashes, means and sample SDs.
 Figure/table generation uses only bundled data and does not run simulations.
-The [local validation record](validation/LOCAL_VALIDATION.json) documents 20
-passing tests and two short parallel software checks. Hosted CI runs after upload.
+The [original validation record](validation/LOCAL_VALIDATION.json) documents the
+initial 20 tests and two parallel software checks. Release validation also checks
+the added 64 worker folds and their starts, the synthetic illustration and
+regeneration of proposal diagnostics. Hosted CI runs on Linux and Windows.
 
 ![Validated example FCC folds](figures/fig04_validated_folds.png)
 
-Examples are S3, R3, 3no3 and 3on7. Red beads are H residues, blue beads are P
-residues, and lines are chain links. Only the first two recover their tabulated
-Native references; the other panels are not claimed ground states.
+The nine panels show S1, S3, S4, F180_1-F180_3 and R1-R3. Each matches its Native
+reference and improves the compared IWL best. Red/blue beads are H/P residues;
+lines are chain links. Reference matching is not a new ground-state certificate.
+
+The revised FCC coordination diagram uses numeric coordinates around (0,0,0).
+The 16-residue paired-reconstruction illustration and all 25 feasible pool
+members are in `data/schematic_multiblock_example.json`; they are synthetic
+teaching material, not benchmark or ablation evidence.
 
 ## Method and reproducibility
 

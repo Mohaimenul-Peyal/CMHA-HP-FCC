@@ -35,3 +35,19 @@ ablation statistics use explicitly stated target levels.
 
 Examples are compact measured records, clearly separated from new `runs/`
 outputs. Tests/smoke runs must never replace the stored publication results.
+
+## v1.1.0 evidence additions
+
+`data/confirmation_data.json` records six run summaries: two reused fresh controls
+and four additional completed executions, with distinct base seeds. Its three-run
+summary uses each control once. `data/confirmation_worker_folds.json` contains
+the 64 additional worker-best coordinate records, their initial coordinates,
+first-recorded milestones and raw-result hashes. These do not alter the original
+944-row table or make 1008 independent complete experiments.
+
+`data/proposal_diagnostics/<benchmark>/` preserves the compact proposal totals and
+hourly windows of the four full-method ablation controls. The analysis script
+regenerates `data/proposal_productivity.csv`. Construction-effort denominators are
+estimated from periodic 1-in-4096 attempt timing samples, not exact CPU time or
+end-to-end benchmark wall time. Full-budget and final-hour rows refer to the same
+executions. See `docs/EVIDENCE_RELEASE.md` for definitions and cautions.

@@ -36,7 +36,22 @@ unrestricted full-budget estimate. A missing target means no target-based stop.
 
 Means and sample SDs use sixteen worker-best folds within one execution (SD
 denominator 15). Whole-run variability is a different experimental quantity.
-The separate later seed-confirmation experiment is not reported in this package.
+The later independent-seed confirmation is reported separately in release v1.1.0.
+All four complete additional runs and the fresh controls are retained in
+`data/confirmation_data.json`; the controls are not new executions. Reproduce
+each benchmark/seed combination with the unchanged runner:
+
+```bash
+python run_cmha.py --benchmark 3mr7 --base-seed 42026001
+python run_cmha.py --benchmark 3no3 --base-seed 42026001
+python run_cmha.py --benchmark 3mr7 --base-seed 63039001
+python run_cmha.py --benchmark 3no3 --base-seed 63039001
+```
+
+These are four six-hour experiments, each with sixteen parallel workers and no
+target stopping. Compact archived folds are validation inputs, not warm starts.
+The interrupted 3no3 attempt is excluded; the completed replacement is a fresh
+full-budget execution, not checkpoint continuation.
 
 ## Repeatability and portability
 
