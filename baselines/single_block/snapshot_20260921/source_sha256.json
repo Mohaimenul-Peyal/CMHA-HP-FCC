@@ -1,0 +1,20 @@
+{
+  "source_snapshot/improved/benchmark_kernel.py": "d5130fdd18579262fadc6324cb46c97c9ca973098658f89402581a17eec9a13b",
+  "source_snapshot/improved/collect_validation.py": "6cff34bfdb58af7344e7958a2fee65b662150537c3450354b8a9d00ece884a85",
+  "source_snapshot/improved/controller.py": "472d7d4e72580f30ab6974236915d85506e84bbdd6e55c5e6f2edbb421101b74",
+  "source_snapshot/improved/kernel.py": "8419e0ac1835b3ca4f12fd2bcd56214dad4a4cba5acec50664a08a56dd9c5fdb",
+  "source_snapshot/improved/run_ablation_batch.py": "b1bc5d361bb3df69bc08cfc928ae88371e5de18dda825fd30b4a9b5fed8c399b",
+  "source_snapshot/improved/run_ra_q_rbha_fcc.py": "46e02e7dbb5157a7ef0d3e6315cb5bafdc9091df64b5bdda7ff094fb31c04a18",
+  "source_snapshot/improved/support.py": "7c638e183416bbb12cdab3c7101fa873b25f663ec0172a72c55f6d214e2a5a12",
+  "source_snapshot/improved/validate_saved_run.py": "2e4b9a98ab3c09043c7dc50d91fbbe5640eb280d06f2672efff6b32b9d30d21c",
+  "source_snapshot/historical_support/export_3d_FCC_HP_cluster_qubo_light.py": "3b228765c47ae30b20542b0f6ac8518518150f28d110c5e9567b0078eee97e2b",
+  "source_snapshot/historical_support/fcc_lattice.py": "427c34f1b938dc81366f04a7c1276c5446bcfbaf031d818fd37027558b3a85e0",
+  "source_snapshot/historical_support/hp3d_stage_common.py": "6ccdd8740c54bc9d444d0d4d22be33bbed49eec6cfc7ee029ec4c581e3764f65",
+  "source_snapshot/historical_support/plot_fcc_hp_fold.py": "c107f28e08e22655bc24e00c6b682dfd34dfbcace5b908215c035f79c95f0e82",
+  "source_snapshot/historical_support/rb_qubo_3d_common.py": "03e629d728240795e942c43c9c2dc20e4e015718ad562927a252785857a47045",
+  "source_snapshot/historical_support/run_hp3d_fcc_utlc_q_rbha.py": "772f4d81fdff663bf28dcd24111b374c208ed46abe682c79fa1558aa2245a81a",
+  "source_snapshot/historical_support/run_r1_r3_utlc_fullbudget.py": "28f3702190b6213c7357dc49da13413f2f839659d5e76e2b299bff21856d3c95",
+  "source_snapshot/historical_support/summarize_utlc_r1_r3.py": "2e6f2158f416d4d3ac3fe4f691704c909e60202800de94f6f6605b65059ec002",
+  "source_snapshot/historical_support/validate_fcc_fold.py": "d0e1d1dd0ae7a975f799252847a913ab56041919349f1fc5a2c3c70f621e2b37",
+  "source_snapshot/historical_support/verify_r_suite_sources.py": "3a57f71bf3a46399363880ce7a82bbbfd148c786a699042e59ce5d3df53fc171"
+}

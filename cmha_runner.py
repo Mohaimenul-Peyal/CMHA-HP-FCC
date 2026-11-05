@@ -12,7 +12,7 @@ from pathlib import Path
 import sys
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "1.0.0"
+VERSION = "1.1.1"
 
 
 def read_json(path):
@@ -113,6 +113,12 @@ def make_plan(args):
         engine_args.append("--all-workers-target-stop")
     else:
         engine_args.append("--target-stop")
+    if args.ablation == "without_direct_heat_bath":
+        # The uniform-candidate Metropolis rule is a run setting of the no-heat-bath
+        # engine; the profiles record it and it is also passed explicitly here.
+        if original.get("transition_rule") != "uniform_metropolis":
+            raise ValueError("The no-heat-bath ablation profile must set transition_rule to uniform_metropolis")
+        engine_args += ["--transition-rule", "uniform_metropolis"]
     if args.dry_run:
         engine_args.append("--dry-run")
     return dict(benchmark=benchmark, variant=args.ablation or "full", engine=engine_name,

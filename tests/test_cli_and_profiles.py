@@ -38,6 +38,20 @@ class ProfileTests(unittest.TestCase):
             self.assertEqual(plan["engine"], "CMHA_no_heat_bath" if variant == "without_direct_heat_bath" else "CMHA")
             self.assertTrue(plan["report_profile_unchanged"])
 
+    def test_no_heat_bath_ablation_uses_metropolis_rule(self):
+        # Regression test for v1.1.0, whose public profiles omitted this setting.
+        for path in sorted((ROOT / "profiles/ablations/without_direct_heat_bath").glob("*.json")):
+            self.assertEqual(read_json(path)["transition_rule"], "uniform_metropolis", path.name)
+        for variant in ablation_names():
+            args = parser().parse_args(["--benchmark", "3no3", "--ablation", variant, "--dry-run"])
+            plan = make_plan(args)
+            if variant == "without_direct_heat_bath":
+                index = plan["engine_args"].index("--transition-rule")
+                self.assertEqual(plan["engine_args"][index + 1], "uniform_metropolis")
+            else:
+                self.assertNotIn("--transition-rule", plan["engine_args"])
+                self.assertNotIn("transition_rule", read_json(plan["profile"]))
+
     def test_overrides_are_explicit(self):
         args = parser().parse_args(["--benchmark", "H1", "--workers", "2", "--wall-seconds", "3",
                                    "--max-proposals", "64", "--target-stop", "disabled"])

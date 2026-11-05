@@ -11,3 +11,5 @@
 *.png binary
 *.pdf binary
 engines/** -text !eol
+
+baselines/single_block/snapshot_*/** -text !eol

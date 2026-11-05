@@ -32,5 +32,6 @@ jobs:
       - run: python tools/analyze_proposals.py
       - run: python tools/build_assets.py
       - run: python tools/build_evidence_tables.py
+      - run: python tools/run_level_statistics.py
       - run: python run_cmha.py --benchmark H1 --dry-run
       - run: python run_cmha.py --benchmark 3no3 --ablation without_direct_heat_bath --dry-run
