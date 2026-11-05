@@ -2,7 +2,7 @@
   "title": "CMHA-HP-FCC: Contact-Guided Multi-Block Heat-Bath Annealing",
   "upload_type": "software",
   "description": "Reproducible classical CMHA solver for HP protein folding on the FCC lattice. Includes 31 primary benchmark profiles, 28 matched ablation profiles, four additional independent-seed runs, 1008 validated worker-best records, sampled proposal diagnostics and revised figure-generation tools. v1.1.1 fixes the no-heat-bath ablation profiles and adds the single-block baseline source, its validated folds, first-hit records and run-level statistics. The tested solver and primary/ablation values are unchanged.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "creators": [
     {"name": "Alam, Md Mohaimenul", "affiliation": "Tohoku University", "orcid": "0009-0008-0825-8184"},
     {"name": "Onizawa, Naoya", "affiliation": "Tohoku University", "orcid": "0000-0002-4855-7081"},

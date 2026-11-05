@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.1.2 - 2026-11-06
+
+- `tools/run_level_statistics.py` no longer imports SciPy, which is not part of
+  the pinned environment and caused the v1.1.1 CI step to fail. Ranks, chi-square
+  tails and the Kruskal-Wallis test are computed exactly with NumPy and the
+  standard library; all statistics and tables are unchanged.
+
 ## v1.1.1 - 2026-11-06
 
 - Fix: the four `profiles/ablations/without_direct_heat_bath/*.json` profiles now

@@ -12,7 +12,7 @@ from pathlib import Path
 import sys
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "1.1.1"
+VERSION = "1.1.2"
 
 
 def read_json(path):

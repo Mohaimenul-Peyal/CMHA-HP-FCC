@@ -82,7 +82,7 @@ and 474/473/473, respectively. Controls are counted once; interrupted attempts
 and historical copies are not additional replicates. See
 [docs/EVIDENCE_RELEASE.md](docs/EVIDENCE_RELEASE.md) for scope and limitations.
 
-## v1.1.1: ablation-profile fix and matched baseline
+## v1.1.1-v1.1.2: ablation-profile fix and matched baseline
 
 Release v1.1.1 corrects the `without_direct_heat_bath` ablation profiles: v1.1.0
 omitted `"transition_rule": "uniform_metropolis"`, so that public command ran the
@@ -94,7 +94,8 @@ and are unchanged. The release adds:
 - [data/first_hit_records.json](data/first_hit_records.json): first-hit records;
 - `tools/run_level_statistics.py`, the run-level statistical analysis.
 
-See [CHANGELOG.md](CHANGELOG.md).
+v1.1.2 removes a SciPy import from the statistics script, which the pinned
+environment does not include. See [CHANGELOG.md](CHANGELOG.md).
 
 ## Run a suite or ablation
 

@@ -29,7 +29,6 @@ import statistics
 from pathlib import Path
 
 import numpy as np
-from scipy.stats import chi2, kruskal, rankdata
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / 'data/paper_data.json').read_text())
@@ -52,6 +51,50 @@ RNG = np.random.default_rng(20261106)
 
 def label(name: str) -> str:
     return name.replace('FCC', '').replace('_', r'\_')
+
+
+# Small exact replacements for scipy.stats, so that the analysis needs only the
+# pinned NumPy of the solver environment.
+def rankdata(values) -> np.ndarray:
+    """Average ranks (1-based), ties receiving the mean of their positions."""
+    values = np.asarray(values, dtype=float)
+    order = np.argsort(values, kind='mergesort')
+    ordered = values[order]
+    ranks = np.empty(len(values))
+    start = 0
+    while start < len(values):
+        stop = start
+        while stop + 1 < len(values) and ordered[stop + 1] == ordered[start]:
+            stop += 1
+        ranks[order[start:stop + 1]] = (start + stop) / 2 + 1
+        start = stop + 1
+    return ranks
+
+
+def chi2_sf(x: float, df: int) -> float:
+    """Upper tail of the chi-square distribution for df = 1 or an even df."""
+    if x <= 0:
+        return 1.0
+    if df == 1:
+        return math.erfc(math.sqrt(x / 2))
+    assert df % 2 == 0, 'only df = 1 or even df are needed'
+    half = x / 2
+    return math.exp(-half) * sum(half ** i / math.factorial(i) for i in range(df // 2))
+
+
+def kruskal_p(*groups) -> float:
+    """Kruskal--Wallis test with tie correction."""
+    values = np.concatenate([np.asarray(g, dtype=float) for g in groups])
+    ranks = rankdata(values)
+    n = len(values)
+    statistic, offset = 0.0, 0
+    for group in groups:
+        statistic += ranks[offset:offset + len(group)].sum() ** 2 / len(group)
+        offset += len(group)
+    statistic = 12 / (n * (n + 1)) * statistic - 3 * (n + 1)
+    _, counts = np.unique(values, return_counts=True)
+    correction = 1 - float(np.sum(counts ** 3 - counts)) / (n ** 3 - n)
+    return chi2_sf(statistic / correction, len(groups) - 1)
 
 
 def holm(pvalues: list[float]) -> list[float]:
@@ -111,7 +154,7 @@ def logrank_p(first: list[dict], second: list[dict], level: int) -> float:
             variance += d * (n1 / n) * (1 - n1 / n) * (n - d) / (n - 1)
     if variance <= 0:
         return 1.0
-    return float(chi2.sf(observed_minus_expected ** 2 / variance, 1))
+    return chi2_sf(observed_minus_expected ** 2 / variance, 1)
 
 
 def stratified_permutation(full: dict, variant: dict) -> float:
@@ -280,7 +323,7 @@ def seed_confirmation(report: dict) -> None:
                          sd=statistics.stdev(pooled), best=max(pooled),
                          runs_at_level=sum(v >= level for v in pooled), level=level,
                          set_means=[statistics.mean(g) for g in groups],
-                         kruskal_p=float(kruskal(*groups).pvalue))
+                         kruskal_p=kruskal_p(*groups))
     report['pooled_seed_confirmation'] = out
 
 
